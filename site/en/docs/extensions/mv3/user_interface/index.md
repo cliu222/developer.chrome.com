@@ -487,7 +487,7 @@ Extensions][38] example gives a command to open the popup.
 }
 ```
 
-Because the extension defines a [`broswer_action`][39] it can specify `"execute_browser_action"` in
+Because the extension defines a [`browser_action`][39] it can specify `"execute_browser_action"` in
 the commands to open the popup file without including a [background script][40]. If using
 [`page_action`][41], it can be replaced with `"execute_page_action"`. Both browser and extension
 commands can be used in the same extension.
